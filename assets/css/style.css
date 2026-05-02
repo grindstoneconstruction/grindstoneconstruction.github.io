@@ -84,7 +84,7 @@
 	transition: .9s;
 }
 .hover-overlay:hover::after {
-	background:blue;
+	background:rgb(1, 1, 70);
 	opacity: .7;  
 	height: 100%;
 	opacity: .7;

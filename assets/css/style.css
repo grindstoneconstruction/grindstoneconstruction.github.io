@@ -187,7 +187,7 @@
     color: green;
 }
 .navbar .navbar-nav .nav-link.active {
-    color: var(--black0) !important;
+    color:  rgb(184, 177, 206)  !important;
 }
 .navbar .dropdown-toggle::after {
     border: none;

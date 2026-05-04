@@ -1,6 +1,8 @@
 
+
 .btn-custom {
-    background-color: #0c1e58;
+   /* background-color: #011147;*/
+   background-color: #09163f;
     color: #fff;
     border: none;
 }
@@ -9,9 +11,14 @@
     background-color: #09163f; /* slightly darker for hover */
     color: #fff;
 }
+.bordercolor {
+  /*border-style: solid; /* A style must be defined for the color to show */
+  border-color: #011147 !important;
+}
 
 
-<button class="btn btn-custom">Click Me</button>/*** Spinner Start ***/
+
+/*<button class "btn btn-custom">Click Me</button>/*** Spinner Start ***/
 #spinner {
 	opacity: 0;
 	visibility: hidden;
@@ -84,7 +91,7 @@
 	transition: .9s;
 }
 .hover-overlay:hover::after {
-	background:rgb(1, 1, 70);
+	background:#09163f;
 	opacity: .7;  
 	height: 100%;
 	opacity: .7;
@@ -137,7 +144,8 @@
 	width: 26px;
 	right: 0;
 	height: 3px;
-	background-color: blue;
+/*	background-color: rgb(3, 3, 94);*/
+	background-color:#09163f;
 	outline: 1px solid transparent;
 	-webkit-transition-property: background-color, -webkit-transform;
 	-moz-transition-property: background-color, -moz-transform;
@@ -184,10 +192,10 @@
     outline: none;
 }
 .nav-link:hover, .nav-link:focus {
-    color: green;
+    color:rgb(3, 3, 94);
 }
 .navbar .navbar-nav .nav-link.active {
-    color:  rgb(184, 177, 206)  !important;
+    color: var(--white) !important;
 }
 .navbar .dropdown-toggle::after {
     border: none;
@@ -205,7 +213,7 @@
 }
 .dropdown-item:hover, .dropdown-item:focus {
     background: none;
-    color: green;
+    color: rgb(3, 3, 94);
 }
 
 @media (min-width: 992px) {
@@ -339,7 +347,7 @@
 	/*background-image: linear-gradient(rgba(62, 62, 60, 0.875), rgba(62, 62, 60, 0.875)), url('../img/home/bg1.jpg') !important;
     
 */
-	background-image:  url('../img/home/bg1.jpg') !important;
+	background-image:  url('../img/home/b2.png') !important;
     
 background-size: cover !important;
     background-repeat: no-repeat !important;

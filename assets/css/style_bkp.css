@@ -1,24 +1,4 @@
-
-
-.btn-custom {
-   /* background-color: #011147;*/
-   background-color: #09163f;
-    color: #fff;
-    border: none;
-}
-
-.btn-custom:hover {
-    background-color: #09163f; /* slightly darker for hover */
-    color: #fff;
-}
-.bordercolor {
-  /*border-style: solid; /* A style must be defined for the color to show */
-  border-color: #011147 !important;
-}
-
-
-
-/*<button class "btn btn-custom">Click Me</button>/*** Spinner Start ***/
+/*** Spinner Start ***/
 #spinner {
 	opacity: 0;
 	visibility: hidden;
@@ -91,7 +71,7 @@
 	transition: .9s;
 }
 .hover-overlay:hover::after {
-	background:#09163f;
+	background:green;
 	opacity: .7;  
 	height: 100%;
 	opacity: .7;
@@ -144,8 +124,7 @@
 	width: 26px;
 	right: 0;
 	height: 3px;
-/*	background-color: rgb(3, 3, 94);*/
-	background-color:#09163f;
+	background-color: green;
 	outline: 1px solid transparent;
 	-webkit-transition-property: background-color, -webkit-transform;
 	-moz-transition-property: background-color, -moz-transform;
@@ -192,10 +171,10 @@
     outline: none;
 }
 .nav-link:hover, .nav-link:focus {
-    color:rgb(3, 3, 94);
+    color: green;
 }
 .navbar .navbar-nav .nav-link.active {
-    color: var(--white) !important;
+    color: var(--black0) !important;
 }
 .navbar .dropdown-toggle::after {
     border: none;
@@ -213,7 +192,7 @@
 }
 .dropdown-item:hover, .dropdown-item:focus {
     background: none;
-    color: rgb(3, 3, 94);
+    color: green;
 }
 
 @media (min-width: 992px) {
@@ -344,19 +323,15 @@
 
 /*** Review Start ***/
 .review{
-	/*background-image: linear-gradient(rgba(62, 62, 60, 0.875), rgba(62, 62, 60, 0.875)), url('../img/home/bg1.jpg') !important;
-    
-*/
-/*background-image:  url('../img/home/b2.png') !important; */
-background-image: linear-gradient(rgba(62, 62, 60, 0.875), rgba(62, 62, 60, 0.875)), url('../img/home/BG.jpg') !important; 
-background-size: cover !important;
+	background-image: linear-gradient(rgba(62, 62, 60, 0.875), rgba(62, 62, 60, 0.875)), url('../img/home/BG.jpg') !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
     padding-top: 4rem !important;
     padding-bottom: 1rem !important;
     background-position: center center !important;
     border-top: solid 6px #198754;!important; 
-    border-bottom: solid 6px #09163f; !important;
- border-top-color: #09163f;!important;
+    border-bottom: solid 6px green; !important;
+ border-top-color: green;!important;
 }
 
 /*--fancy google bar button--*/
@@ -388,15 +363,6 @@ Gbtn span,
 .floatingbtn-container {
     margin-right: 9rem;
 }
-
-.text-custom-blue {
-    color: #09163f !important;
-}
-.bg-custom-navy {
-  background-color: #09163f !important;
-  color: white; /* Optional: Sets text color */
-}
-
 @media(min-width: 851px){
     .Gbtn h3 span {
     display:flex !important;

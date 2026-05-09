@@ -397,6 +397,18 @@ Gbtn span,
   color: white; /* Optional: Sets text color */
 }
 
+/* Default font size for desktop */
+.my-custom-text {
+  font-size: 1rem;
+}
+
+/* Smaller font size for mobile (screens smaller than 768px) */
+@media (max-width: 767.98px) {
+  .my-custom-text {
+    font-size: .4rem;
+  }
+}
+
 @media(min-width: 851px){
     .Gbtn h3 span {
     display:flex !important;
